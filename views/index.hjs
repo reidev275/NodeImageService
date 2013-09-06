@@ -57,8 +57,8 @@
 				<h2>Check Status</h2>
 				<table class="table table-striped">
 					<tbody>
-						<tr><th>Method</th><td>Put</td></tr>
-						<tr><th>Location</th><td>{{ host }}/images/top</td></tr>
+						<tr><th>Method</th><td>Get</td></tr>
+						<tr><th>Location</th><td>{{ host }}/images/[id]</td></tr>
 						<tr><th>Data</th><td>n/a</td></tr>
 					</tbody>
 				</table>     
