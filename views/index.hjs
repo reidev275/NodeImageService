@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+  </head>
+<body style="">
+
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">{{ title }}</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="container">
+		<div class="jumbotron" style="background-color: #eef">      
+			<p>NodeJS service created to allow load testing of multiple providers</p>
+		</div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>Queue</h2>
+				<table class="table table-striped">
+					<tbody>
+						<tr><th>Method</th><td>Post</td></tr>
+						<tr><th>Location</th><td>{{ host }}/images</td></tr>
+						<tr><th colspan="2">Data
+
+<pre>{ 
+  Account: 'foo', 
+  Project: 'bar', 
+  Image: 'base64 image',
+  ImageFormat: '.tif'
+}</pre>
+							</th></tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="col-lg-4">
+				<h2>Dequeue</h2>
+				<table class="table table-striped">
+					<tbody>
+						<tr><th>Method</th><td>Put</td></tr>
+						<tr><th>Location</th><td>{{ host }}/images/top</td></tr>
+						<tr><th>Data</th><td>n/a</td></tr>
+					</tbody>
+				</table>          
+			</div>
+			<div class="col-lg-4">
+				<h2>Check Status</h2>
+				<table class="table table-striped">
+					<tbody>
+						<tr><th>Method</th><td>Put</td></tr>
+						<tr><th>Location</th><td>{{ host }}/images/top</td></tr>
+						<tr><th>Data</th><td>n/a</td></tr>
+					</tbody>
+				</table>     
+			</div>
+		</div>
+
+      <hr>
+
+      <footer>
+
+      </footer>
+    </div> <!-- /container -->
+</body>
+</html>
