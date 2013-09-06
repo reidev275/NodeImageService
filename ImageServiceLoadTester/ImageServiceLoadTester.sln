@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageServiceLoadTester", "ImageServiceLoadTester\ImageServiceLoadTester.csproj", "{B6C21180-E343-4551-80A9-3C8685919D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C21180-E343-4551-80A9-3C8685919D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C21180-E343-4551-80A9-3C8685919D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C21180-E343-4551-80A9-3C8685919D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C21180-E343-4551-80A9-3C8685919D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\bin\Debug\ImageServiceLoadTester.exe.config
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\bin\Debug\ImageServiceLoadTester.exe
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\bin\Debug\ImageServiceLoadTester.pdb
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\bin\Debug\RestSharp.dll
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\bin\Debug\RestSharp.xml
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\obj\Debug\ImageServiceLoadTester.csprojResolveAssemblyReference.cache
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\obj\Debug\ImageServiceLoadTester.exe
+d:\dev\ImageServiceLoadTester\ImageServiceLoadTester\obj\Debug\ImageServiceLoadTester.pdb
